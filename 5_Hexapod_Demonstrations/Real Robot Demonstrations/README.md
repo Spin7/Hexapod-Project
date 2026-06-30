@@ -1,7 +1,7 @@
 # Real Robot Demonstrations
 
 <p align="center">
-  <img src="hexapod_in_table.jpg" alt="Hexapod physical robot" width="860">
+  <img src="../../6_Multimedia/hexapod_in_table.jpg" alt="Hexapod physical robot" width="860">
 </p>
 
 > **Part of the [Hexapod Project](https://github.com/Spin7/Hexapod-Project)**  

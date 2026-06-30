@@ -82,9 +82,9 @@ desktop.ini
 # ──────────────────────────────────────────────
 # Keep documentation images
 !5_Hexapod_Demonstrations/Hexapod_real_and_sim.png
-!5_Hexapod_Demonstrations/Simulation\ Robot\ Demonstrations/*.png
-!5_Hexapod_Demonstrations/Real\ Robot\ Demonstrations/Hexapod*.jpg
-!5_Hexapod_Demonstrations/Real\ Robot\ Demonstrations/hexapod_in_table.jpg
+!5_Hexapod_Demonstrations/**/Hexapod*.jpg
+!5_Hexapod_Demonstrations/**/hexapod_in_table.jpg
+!5_Hexapod_Demonstrations/**/*.png
 !1_ROS2_Gazebo_Project/Hexapod.jpg
 
 # Keep all multimedia assets
@@ -92,4 +92,4 @@ desktop.ini
 
 # Keep PDF guides
 !2_Arduino_Code/Arduino_Instructions.pdf
-!3_3D_Design/Hexapod\ 3D\ model/stl\ files/Robot/Parts-List.pdf
+!3_3D_Design/**/*.pdf
