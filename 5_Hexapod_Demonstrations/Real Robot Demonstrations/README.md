@@ -1,7 +1,7 @@
 # Real Robot Demonstrations
 
 <p align="center">
-  <img src="../../6_Multimedia/hexapod_in_table.jpg" alt="Hexapod physical robot" width="860">
+  <img src="../../6_Multimedia/hexapod_in_table.jpg" alt="Hexapod physical robot" width="640">
 </p>
 
 > **Part of the [Hexapod Project](https://github.com/Spin7/Hexapod-Project)**  
@@ -14,11 +14,11 @@
 ## 📸 Robot Photos
 
 <p align="center">
-  <img src="Hexapod1.jpg" alt="Hexapod Robot — front view" width="420">
-  <img src="Hexapod2.jpg" alt="Hexapod Robot — outdoor" width="420">
+  <img src="Hexapod1.jpg" alt="Hexapod Robot — front view" width="640">
+  <img src="Hexapod2.jpg" alt="Hexapod Robot — outdoor" width="640">
 </p>
 <p align="center">
-  <img src="Hexapod3.jpg" alt="Hexapod Robot — detail" width="860">
+  <img src="Hexapod3.jpg" alt="Hexapod Robot — detail" width="640">
 </p>
 
 ---
