@@ -5,18 +5,12 @@
 # ──────────────────────────────────────────────
 # Large binary / media files
 # ──────────────────────────────────────────────
-# Videos
-*.mp4
+# Videos (only outside of tracked demo/multimedia folders)
 *.avi
 *.mov
 *.mkv
 *.wmv
 *.webm
-
-# Large images (keep PNGs/JPGs that are documentation assets, see exceptions below)
-6_Multimedia/*.jpg
-6_Multimedia/*.jpeg
-6_Multimedia/*.mp4
 
 # ──────────────────────────────────────────────
 # Large 3D design files
@@ -90,7 +84,11 @@ desktop.ini
 !5_Hexapod_Demonstrations/Hexapod_real_and_sim.png
 !5_Hexapod_Demonstrations/Simulation\ Robot\ Demonstrations/*.png
 !5_Hexapod_Demonstrations/Real\ Robot\ Demonstrations/Hexapod*.jpg
+!5_Hexapod_Demonstrations/Real\ Robot\ Demonstrations/hexapod_in_table.jpg
 !1_ROS2_Gazebo_Project/Hexapod.jpg
+
+# Keep all multimedia assets
+!6_Multimedia/**
 
 # Keep PDF guides
 !2_Arduino_Code/Arduino_Instructions.pdf
