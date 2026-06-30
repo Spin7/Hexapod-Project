@@ -8,102 +8,38 @@
   <em>Left: Physical robot in the real world · Right: Gazebo simulation counterpart</em>
 </p>
 
-> **Part of the [Hexapod Project](https://github.com/Spin7/Hexapod-Project)**  
-> This folder contains all video demonstrations of the hexapod robot operating in both **Gazebo simulation** and on the **real hardware** (Raspberry Pi + Arduino Mega).
+Video demonstrations of the hexapod robot operating in both **Gazebo simulation** and on the **real hardware**. Each subfolder contains a detailed video index with YouTube thumbnails, descriptions, and launch commands.
 
 ---
 
-## 📂 Structure
+## 🎮 [Simulation Robot Demonstrations](Simulation%20Robot%20Demonstrations/README.md) — 7 videos
 
-```
-5_Hexapod_Demonstrations/
-├── Simulation Robot Demonstrations/    # 7 Gazebo / ROS2 videos
-├── Real Robot Demonstrations/          # 9 physical robot videos
-└── Hexapod_real_and_sim.png            # Hero comparison image
-```
+All behaviors running inside **Gazebo Harmonic + ROS2 Jazzy**. No hardware required.
 
----
-
-## 🎮 Simulation Demonstrations — 7 Videos
-
-> 📁 [`Simulation Robot Demonstrations/`](Simulation%20Robot%20Demonstrations/README.md)  
-> 🎬 YouTube Playlist: **Hexapod Project — Simulation (Gazebo + ROS2)**
-
-All behaviors run inside **Gazebo Harmonic** with **ROS2 Jazzy**. No hardware required — perfect for understanding the software architecture before deploying to real hardware.
-
-<p align="center">
-  <img src="Simulation Robot Demonstrations/Hexapod_sim_1.png" alt="Hexapod in Gazebo" width="280">
-  <img src="Simulation Robot Demonstrations/Hexapod_sim_2.png" alt="Hexapod in Gazebo — teleop" width="280">
-  <img src="Simulation Robot Demonstrations/GPS_navigation_sim.png" alt="GPS Navigation Map" width="280">
-</p>
-
-| # | Video File | Mode | YouTube |
-|---|---|---|---|
-| 1 | `1_Hexapod_gazebo_launch.mp4` | Gazebo World Launch | [▶ Watch](#) |
-| 2 | `2_Hexapod_teleop_node_sim.mp4` | Teleoperation | [▶ Watch](#) |
-| 3 | `3_Hexapod_sensors_compute_sim.mp4` | Sensor Computation Layer | [▶ Watch](#) |
-| 4 | `4_Hexapod_follower_sim.mp4` | Vision-Based Follower (YOLO) | [▶ Watch](#) |
-| 5 | `5_Hexapod_swarm_follower_sim.mp4` | Swarm Follower | [▶ Watch](#) |
-| 6 | `6_Hexapod_gps_navigation_sim.mp4` | Autonomous GPS Navigation | [▶ Watch](#) |
-| 7 | `7_Hexapod_social_robot_launch_sim.mp4` | Social Robot — Hand Gestures | [▶ Watch](#) |
-
----
-
-## 🤖 Real Robot Demonstrations — 9 Videos
-
-> 📁 [`Real Robot Demonstrations/`](Real%20Robot%20Demonstrations/README.md)  
-> 🎬 YouTube Playlist: **Hexapod Project — Real Robot (Raspberry Pi + Arduino)**
-
-The same behaviors running on physical hardware: Raspberry Pi 4 + Arduino Mega + 18 servo motors. Real sensors, real noise, real consequences.
-
-<p align="center">
-  <img src="Real Robot Demonstrations/Hexapod1.jpg" alt="Hexapod Robot" width="420">
-  <img src="Real Robot Demonstrations/Hexapod2.jpg" alt="Hexapod Robot outdoor" width="420">
-</p>
-
-| # | Video File | Mode | YouTube |
-|---|---|---|---|
-| 1 | `1_Hexapod_dds_comunication_launch.mp4` | DDS Communication Launch | [▶ Watch](#) |
-| 2 | `2_Hexapod_teleop_node.mp4` | Teleoperation | [▶ Watch](#) |
-| 3 | `3_Hexapod_autobalance_node.mp4` | Auto-Balance Controller | [▶ Watch](#) |
-| 4 | `4_Hexapod_compute_sensors_launch.mp4` | Sensor Computation Layer | [▶ Watch](#) |
-| 5 | `5_Hexapod_follower_launch.mp4` | Vision Follower Launch | [▶ Watch](#) |
-| 6 | `6_Hexapod_swarm_follower_launch.mp4` | Swarm Follower Launch | [▶ Watch](#) |
-| 7 | `7_Hexapod_gps_navigation_launch.mp4` | GPS Navigation Launch | [▶ Watch](#) |
-| 8 | `8_Hexapod_follower_demonstration.mp4` | Follower — Full Demo | [▶ Watch](#) |
-| 9 | `9_Hexapod_gps_navigation_demonstration.mp4` | GPS Navigation — Full Demo | [▶ Watch](#) |
-
----
-
-## 🔗 YouTube Playlists
-
-| Playlist | Description |
+| # | Mode |
 |---|---|
-| [🎮 Simulation (Gazebo + ROS2)](#-add-playlist-link-here) | 7 videos — full simulation pipeline |
-| [🤖 Real Robot (Raspberry Pi + Arduino)](#-add-playlist-link-here) | 9 videos — physical hardware demos |
+| 1 | Gazebo World Launch |
+| 2 | Teleoperation |
+| 3 | Sensor Computation Layer |
+| 4 | Vision-Based Follower (YOLO) |
+| 5 | Swarm Follower |
+| 6 | Autonomous GPS Navigation |
+| 7 | Social Robot — Hand Gestures |
 
 ---
 
-## 🧠 Operation Modes Demonstrated
+## 🤖 [Real Robot Demonstrations](Real%20Robot%20Demonstrations/README.md) — 9 videos
 
-| Mode | Simulation | Real Robot | Description |
-|---|---|---|---|
-| 🚀 **Gazebo Launch** | ✅ | — | Spawn robot and initialize physics + ROS2 bridge |
-| 🕹️ **Teleoperation** | ✅ | ✅ | Manual keyboard control |
-| ⚖️ **Auto-Balance** | — | ✅ | IMU-based postural stabilization |
-| 📡 **Sensor Layer** | ✅ | ✅ | GPS, IMU, ultrasonic processing pipeline |
-| 👁️ **Follower** | ✅ | ✅ | YOLO-based visual target tracking and pursuit |
-| 🐝 **Swarm Follower** | ✅ | ✅ | Multi-agent coordination follower behavior |
-| 🗺️ **GPS Navigation** | ✅ | ✅ | Autonomous goal-reaching with obstacle avoidance |
-| 🖐️ **Social Robot** | ✅ | — | Hand gesture recognition → robot motion |
+The same behaviors on physical hardware: Raspberry Pi 4 + Arduino Mega + 18 servo motors.
 
----
-
-## 🛠️ Tech Stack
-
-```
-ROS2 Jazzy  ·  Gazebo Harmonic  ·  YOLO (Ultralytics)  ·  MediaPipe
-Raspberry Pi 4  ·  Arduino Mega  ·  GPS  ·  IMU  ·  Ultrasonic
-```
-
-> 📦 Full source code: [github.com/Spin7/Hexapod-Project](https://github.com/Spin7/Hexapod-Project)
+| # | Mode |
+|---|---|
+| 1 | DDS Communication Launch |
+| 2 | Teleoperation |
+| 3 | Auto-Balance Controller |
+| 4 | Sensor Computation Layer |
+| 5 | Vision-Based Follower Launch |
+| 6 | Swarm Follower Launch |
+| 7 | GPS Navigation Launch |
+| 8 | Follower — Full Demo |
+| 9 | GPS Navigation — Full Demo |

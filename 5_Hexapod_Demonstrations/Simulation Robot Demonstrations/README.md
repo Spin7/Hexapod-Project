@@ -40,7 +40,7 @@
 
 <p align="center">
   <a href="https://youtu.be/VrdOxer3bfk">
-    <img src="Hexapod_sim_1.png" alt="▶ Watch: Gazebo Launch" width="640">
+    <img src="https://img.youtube.com/vi/VrdOxer3bfk/maxresdefault.jpg" alt="▶ Watch: Gazebo Launch" width="640">
   </a>
 </p>
 <p align="center"><em>▶ Click to watch on YouTube</em></p>
@@ -66,7 +66,7 @@ ros2 launch hexapod_pkg gazebo_hexapod_sim.launch.py
 
 <p align="center">
   <a href="https://youtu.be/bPy6ompV-m8">
-    <img src="Hexapod_sim_2.png" alt="▶ Watch: Teleoperation" width="640">
+    <img src="https://img.youtube.com/vi/bPy6ompV-m8/maxresdefault.jpg" alt="▶ Watch: Teleoperation" width="640">
   </a>
 </p>
 <p align="center"><em>▶ Click to watch on YouTube</em></p>
@@ -94,7 +94,7 @@ ros2 run hexapod_pkg teleop_hexapod_sim
 
 <p align="center">
   <a href="https://youtu.be/xsyxHJcdykU">
-    <img src="Hexapod_sim_3.png" alt="▶ Watch: Sensor Computation Layer" width="640">
+    <img src="https://img.youtube.com/vi/xsyxHJcdykU/maxresdefault.jpg" alt="▶ Watch: Sensor Computation Layer" width="640">
   </a>
 </p>
 <p align="center"><em>▶ Click to watch on YouTube</em></p>
@@ -129,7 +129,7 @@ ros2 launch hexapod_pkg sensors_compute_sim.launch.py
 
 <p align="center">
   <a href="https://youtu.be/TKISpMUWDwg">
-    <img src="Hexapod_sim_4.png" alt="▶ Watch: Vision-Based Follower" width="640">
+    <img src="https://img.youtube.com/vi/TKISpMUWDwg/maxresdefault.jpg" alt="▶ Watch: Vision-Based Follower" width="640">
   </a>
 </p>
 <p align="center"><em>▶ Click to watch on YouTube</em></p>
@@ -157,7 +157,7 @@ ros2 launch hexapod_pkg follower_sim.launch.py
 
 <p align="center">
   <a href="https://youtu.be/z2tB1xrgj1U">
-    <img src="Hexapod_sim_5.png" alt="▶ Watch: Swarm Follower" width="640">
+    <img src="https://img.youtube.com/vi/z2tB1xrgj1U/maxresdefault.jpg" alt="▶ Watch: Swarm Follower" width="640">
   </a>
 </p>
 <p align="center"><em>▶ Click to watch on YouTube</em></p>
@@ -185,7 +185,7 @@ ros2 launch hexapod_pkg swarm_follower_sim.launch.py
 
 <p align="center">
   <a href="https://youtu.be/vps-d9vtT4c">
-    <img src="GPS_navigation_sim.png" alt="▶ Watch: Autonomous GPS Navigation" width="640">
+    <img src="https://img.youtube.com/vi/vps-d9vtT4c/maxresdefault.jpg" alt="▶ Watch: Autonomous GPS Navigation" width="640">
   </a>
 </p>
 <p align="center"><em>▶ Click to watch on YouTube</em></p>
@@ -220,7 +220,7 @@ ros2 launch hexapod_pkg navigation_to_target_sim.launch.py
 
 <p align="center">
   <a href="https://youtu.be/Hdm6wiWA3Ro">
-    <img src="Hexapod_sim_6.png" alt="▶ Watch: Social Robot — Hand Gestures" width="640">
+    <img src="https://img.youtube.com/vi/Hdm6wiWA3Ro/maxresdefault.jpg" alt="▶ Watch: Social Robot — Hand Gestures" width="640">
   </a>
 </p>
 <p align="center"><em>▶ Click to watch on YouTube</em></p>
