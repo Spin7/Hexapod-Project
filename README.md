@@ -1,4 +1,4 @@
-# 🦾 Hexapod Project
+# Hexapod Project
 
 <p align="center">
   <img src="5_Hexapod_Demonstrations/Hexapod_real_and_sim.png" alt="Hexapod — Real robot and Gazebo simulation" width="900">
@@ -68,7 +68,7 @@ Hexapod Project/
 
 ## Modules
 
-### 📦 1 — ROS2 Gazebo Project
+### 1 — ROS2 Gazebo Project
 
 > **Path:** [`1_ROS2_Gazebo_Project/`](1_ROS2_Gazebo_Project/)  
 > **See:** [`1_ROS2_Gazebo_Project/README.md`](1_ROS2_Gazebo_Project/README.md)
@@ -102,7 +102,7 @@ The brain of the system. A single colcon package (`hexapod_pkg`) that runs on bo
 
 ---
 
-### 🔌 2 — Arduino Code
+### 2 — Arduino Code
 
 > **Path:** [`2_Arduino_Code/`](2_Arduino_Code/)
 
@@ -117,7 +117,7 @@ Arduino Mega firmware written in C++. Receives high-level movement commands over
 
 ---
 
-### 🖨️ 3 — 3D Design
+### 3 — 3D Design
 
 > **Path:** [`3_3D_Design/`](3_3D_Design/)
 
@@ -141,28 +141,39 @@ Additional sub-assemblies include custom mounts for the **HC-SR04** ultrasonic s
 
 ---
 
-### 📱 4 — SensorServer App
+### 4 — SensorServer App
 
 > **Path:** [`4_SensorServer_App/`](4_SensorServer_App/)  
 > **GitHub:** [github.com/UmerCodez/SensorServer](https://github.com/UmerCodez/SensorServer)
 
 An Android application that streams all smartphone sensors (GPS, accelerometer, gyroscope, magnetometer) over **WebSocket** to the ROS2 network. This turns a regular smartphone into a powerful sensor hub for the hexapod, providing:
 
-- 📍 **GPS** — global position for autonomous navigation
-- 🧭 **IMU** — accelerometer + gyroscope + magnetometer for heading estimation
-- 📷 **Camera** — phone camera streamed via **IriunWebCam** to the PC
+- **GPS** — global position for autonomous navigation
+- **IMU** — accelerometer + gyroscope + magnetometer for heading estimation
+- **Camera** — phone camera streamed via **IriunWebCam** to the PC
 
 The APK is included in this folder for direct installation.
 
 ---
 
-### 🎬 5 — Hexapod Demonstrations
+### 5 — Hexapod Demonstrations
 
-> **Path:** [`5_Hexapod_Demonstrations/`](5_Hexapod_Demonstrations/)
+> **Path:** [`5_Hexapod_Demonstrations/`](5_Hexapod_Demonstrations/)  
+> **See:** [`5_Hexapod_Demonstrations/README.md`](5_Hexapod_Demonstrations/README.md)
 
 Video recordings of all operation modes on both the real robot and the simulation. Organized into two sub-folders:
 
-**Real Robot Demonstrations:**
+<p align="center">
+  <img src="5_Hexapod_Demonstrations/Real Robot Demonstrations/Hexapod1.jpg" alt="Hexapod Robot" width="420">
+  <img src="5_Hexapod_Demonstrations/Real Robot Demonstrations/Hexapod2.jpg" alt="Hexapod Robot outdoor" width="420">
+</p>
+<p align="center">
+  <img src="5_Hexapod_Demonstrations/Simulation Robot Demonstrations/Hexapod_sim_1.png" alt="Gazebo Simulation" width="280">
+  <img src="5_Hexapod_Demonstrations/Simulation Robot Demonstrations/Hexapod_sim_3.png" alt="Gazebo Simulation" width="280">
+  <img src="5_Hexapod_Demonstrations/Simulation Robot Demonstrations/GPS_navigation_sim.png" alt="GPS Navigation" width="280">
+</p>
+
+**Real Robot Demonstrations (9 videos):**
 
 | # | Video | Description |
 |---|---|---|
@@ -176,7 +187,7 @@ Video recordings of all operation modes on both the real robot and the simulatio
 | 8 | `8_Hexapod_follower_demonstration.mp4` | Full follower demo in real environment |
 | 9 | `9_Hexapod_gps_navigation_demonstration.mp4` | Full autonomous GPS navigation demo |
 
-**Simulation Demonstrations:**
+**Simulation Demonstrations (7 videos):**
 
 | # | Video | Description |
 |---|---|---|
@@ -190,11 +201,20 @@ Video recordings of all operation modes on both the real robot and the simulatio
 
 ---
 
-### 🖼️ 6 — Multimedia
+### 6 — Multimedia
 
 > **Path:** [`6_Multimedia/`](6_Multimedia/)
 
 Raw photos and media assets of the physical robot from construction and testing sessions.
+
+<p align="center">
+  <img src="6_Multimedia/Hexapod.jpg" alt="Hexapod Robot" width="420">
+  <img src="6_Multimedia/20251223_180120.jpg" alt="Hexapod Robot — testing" width="420">
+</p>
+<p align="center">
+  <img src="6_Multimedia/gps_nav.png" alt="GPS Navigation screenshot" width="420">
+  <img src="6_Multimedia/5107459007307254717.jpg" alt="Hexapod — field test" width="420">
+</p>
 
 ---
 

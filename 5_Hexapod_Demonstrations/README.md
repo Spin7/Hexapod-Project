@@ -31,6 +31,12 @@
 
 All behaviors run inside **Gazebo Harmonic** with **ROS2 Jazzy**. No hardware required — perfect for understanding the software architecture before deploying to real hardware.
 
+<p align="center">
+  <img src="Simulation Robot Demonstrations/Hexapod_sim_1.png" alt="Hexapod in Gazebo" width="280">
+  <img src="Simulation Robot Demonstrations/Hexapod_sim_2.png" alt="Hexapod in Gazebo — teleop" width="280">
+  <img src="Simulation Robot Demonstrations/GPS_navigation_sim.png" alt="GPS Navigation Map" width="280">
+</p>
+
 | # | Video File | Mode | YouTube |
 |---|---|---|---|
 | 1 | `1_Hexapod_gazebo_launch.mp4` | Gazebo World Launch | [▶ Watch](#) |
@@ -49,6 +55,11 @@ All behaviors run inside **Gazebo Harmonic** with **ROS2 Jazzy**. No hardware re
 > 🎬 YouTube Playlist: **Hexapod Project — Real Robot (Raspberry Pi + Arduino)**
 
 The same behaviors running on physical hardware: Raspberry Pi 4 + Arduino Mega + 18 servo motors. Real sensors, real noise, real consequences.
+
+<p align="center">
+  <img src="Real Robot Demonstrations/Hexapod1.jpg" alt="Hexapod Robot" width="420">
+  <img src="Real Robot Demonstrations/Hexapod2.jpg" alt="Hexapod Robot outdoor" width="420">
+</p>
 
 | # | Video File | Mode | YouTube |
 |---|---|---|---|

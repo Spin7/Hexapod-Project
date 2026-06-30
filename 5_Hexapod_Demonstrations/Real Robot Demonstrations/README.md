@@ -14,8 +14,11 @@
 ## 📸 Robot Photos
 
 <p align="center">
-  <img src="Hexapod1.jpg" alt="Hexapod Robot" width="420">
-  <img src="Hexapod2.jpg" alt="Hexapod Robot outdoor" width="420">
+  <img src="Hexapod1.jpg" alt="Hexapod Robot — front view" width="420">
+  <img src="Hexapod2.jpg" alt="Hexapod Robot — outdoor" width="420">
+</p>
+<p align="center">
+  <img src="Hexapod3.jpg" alt="Hexapod Robot — detail" width="860">
 </p>
 
 ---
@@ -34,6 +37,8 @@
 
 ## 🎬 Video Index
 
+> **How to watch:** Click the thumbnail or title to open the video on YouTube.
+
 ---
 
 ### Part 1 — DDS Communication Launch
@@ -41,7 +46,12 @@
 **File:** `1_Hexapod_dds_comunication_launch.mp4`  
 **Title:** *Hexapod Project - Real Robot Part 1 (DDS Communication Launch)*
 
-> 🔗 **YouTube:** <!-- PASTE YOUTUBE LINK HERE --> `https://youtu.be/XXXXXXXXXX`
+<p align="center">
+  <a href="https://youtu.be/VLH7wAWyUxs">
+    <img src="Hexapod1.jpg" alt="▶ Watch: DDS Communication Launch" width="640">
+  </a>
+</p>
+<p align="center"><em>▶ Click to watch on YouTube</em></p>
 
 **Description:**  
 The first step to operating the real hexapod robot is establishing the **DDS communication bridge** between the PC (running ROS2) and the robot (Raspberry Pi + Arduino Mega).
@@ -71,7 +81,12 @@ ros2 launch hexapod_pkg dds_comunication.launch.py
 **File:** `2_Hexapod_teleop_node.mp4`  
 **Title:** *Hexapod Project - Real Robot Part 2 (Teleoperation)*
 
-> 🔗 **YouTube:** <!-- PASTE YOUTUBE LINK HERE --> `https://youtu.be/XXXXXXXXXX`
+<p align="center">
+  <a href="https://youtu.be/U2Dk3tRs2tY">
+    <img src="Hexapod1.jpg" alt="▶ Watch: Teleoperation" width="640">
+  </a>
+</p>
+<p align="center"><em>▶ Click to watch on YouTube</em></p>
 
 **Description:**  
 With the DDS communication bridge active, in this video I take direct manual control of the physical hexapod robot using **keyboard-based teleoperation**.
@@ -99,7 +114,12 @@ ros2 run hexapod_pkg teleop_hexapod
 **File:** `3_Hexapod_autobalance_node.mp4`  
 **Title:** *Hexapod Project - Real Robot Part 3 (Auto-Balance Controller)*
 
-> 🔗 **YouTube:** <!-- PASTE YOUTUBE LINK HERE --> `https://youtu.be/XXXXXXXXXX`
+<p align="center">
+  <a href="https://youtu.be/IZbR-sUqEJs">
+    <img src="Hexapod2.jpg" alt="▶ Watch: Auto-Balance Controller" width="640">
+  </a>
+</p>
+<p align="center"><em>▶ Click to watch on YouTube</em></p>
 
 **Description:**  
 The **balance controller** adds a postural correction layer that runs between navigation commands and raw servo actuation.
@@ -120,7 +140,12 @@ In this video you can see the real hexapod actively stabilizing its body while m
 **File:** `4_Hexapod_compute_sensors_launch.mp4`  
 **Title:** *Hexapod Project - Real Robot Part 4 (Sensor Computation Layer)*
 
-> 🔗 **YouTube:** <!-- PASTE YOUTUBE LINK HERE --> `https://youtu.be/XXXXXXXXXX`
+<p align="center">
+  <a href="https://youtu.be/g3vVCbwPKyo">
+    <img src="Hexapod2.jpg" alt="▶ Watch: Sensor Computation Layer" width="640">
+  </a>
+</p>
+<p align="center"><em>▶ Click to watch on YouTube</em></p>
 
 **Description:**  
 Before running any autonomous behavior on the real robot, the sensor computation stack must be active. This launch processes data from real hardware sensors into navigation-ready signals:
@@ -148,7 +173,12 @@ ros2 launch hexapod_pkg sensors_compute_real.launch.py
 **File:** `5_Hexapod_follower_launch.mp4`  
 **Title:** *Hexapod Project - Real Robot Part 5 (Vision-Based Follower Launch)*
 
-> 🔗 **YouTube:** <!-- PASTE YOUTUBE LINK HERE --> `https://youtu.be/XXXXXXXXXX`
+<p align="center">
+  <a href="https://youtu.be/iJXCLiiwyK0">
+    <img src="Hexapod3.jpg" alt="▶ Watch: Vision-Based Follower Launch" width="640">
+  </a>
+</p>
+<p align="center"><em>▶ Click to watch on YouTube</em></p>
 
 **Description:**  
 Launching the **follower mode** on the real physical hexapod robot. The robot uses a camera (phone / USB webcam) and a YOLO model to detect a target object and follow it in real time.
@@ -171,7 +201,12 @@ ros2 launch hexapod_pkg follower_real.launch.py
 **File:** `6_Hexapod_swarm_follower_launch.mp4`  
 **Title:** *Hexapod Project - Real Robot Part 6 (Swarm Follower Launch)*
 
-> 🔗 **YouTube:** <!-- PASTE YOUTUBE LINK HERE --> `https://youtu.be/XXXXXXXXXX`
+<p align="center">
+  <a href="https://youtu.be/b_1az8GlGhw">
+    <img src="Hexapod3.jpg" alt="▶ Watch: Swarm Follower Launch" width="640">
+  </a>
+</p>
+<p align="center"><em>▶ Click to watch on YouTube</em></p>
 
 **Description:**  
 Launching the **swarm follower mode** on the real hexapod. This behavior is designed for multi-robot coordination, where each unit follows a leader using vision and obstacle-aware navigation.
@@ -194,7 +229,12 @@ ros2 launch hexapod_pkg swarm_follower_real.launch.py
 **File:** `7_Hexapod_gps_navigation_launch.mp4`  
 **Title:** *Hexapod Project - Real Robot Part 7 (GPS Navigation Launch)*
 
-> 🔗 **YouTube:** <!-- PASTE YOUTUBE LINK HERE --> `https://youtu.be/XXXXXXXXXX`
+<p align="center">
+  <a href="https://youtu.be/4EwRCGkaTQo">
+    <img src="Hexapod3.jpg" alt="▶ Watch: GPS Navigation Launch" width="640">
+  </a>
+</p>
+<p align="center"><em>▶ Click to watch on YouTube</em></p>
 
 **Description:**  
 Launching the full **autonomous GPS navigation stack** on the real hexapod robot. This video shows the complete system initialization sequence:
@@ -222,16 +262,21 @@ ros2 launch hexapod_pkg navigation_to_target_real.launch.py
 **File:** `8_Hexapod_follower_demonstration.mp4`  
 **Title:** *Hexapod Project - Real Robot Part 8 (Follower Full Demo)*
 
-> 🔗 **YouTube:** <!-- PASTE YOUTUBE LINK HERE --> `https://youtu.be/XXXXXXXXXX`
+<p align="center">
+  <a href="https://youtu.be/CMZotYHFU5w">
+    <img src="Hexapod2.jpg" alt="▶ Watch: Follower Full Demo" width="640">
+  </a>
+</p>
+<p align="center"><em>▶ Click to watch on YouTube</em></p>
 
 **Description:**  
 **Full demonstration** of the vision-based follower behavior running on the real physical hexapod robot.
 
 The robot detects a moving target using YOLO and autonomously follows it through real-world space — dealing with:
-- 📷 Real camera latency
-- ⚙️ Physical motion instability
-- 💡 Lighting and environment variation
-- 🚧 Obstacle avoidance on real terrain
+- Real camera latency
+- Physical motion instability
+- Lighting and environment variation
+- Obstacle avoidance on real terrain
 
 A complete end-to-end test of the **perception → navigation pipeline** on real hardware.
 
@@ -244,7 +289,12 @@ A complete end-to-end test of the **perception → navigation pipeline** on real
 **File:** `9_Hexapod_gps_navigation_demonstration.mp4`  
 **Title:** *Hexapod Project - Real Robot Part 9 (GPS Navigation Full Demo)*
 
-> 🔗 **YouTube:** <!-- PASTE YOUTUBE LINK HERE --> `https://youtu.be/XXXXXXXXXX`
+<p align="center">
+  <a href="https://youtu.be/iqLUGNQwuDo">
+    <img src="Hexapod3.jpg" alt="▶ Watch: GPS Navigation Full Demo" width="640">
+  </a>
+</p>
+<p align="center"><em>▶ Click to watch on YouTube</em></p>
 
 **Description:**  
 The **crown jewel** of the real robot series — a full end-to-end autonomous GPS navigation demonstration with obstacle avoidance.
@@ -264,7 +314,7 @@ All of this running on real hardware, in the real world.
 
 ---
 
-## 🛠️ Common Setup (All Real Robot Modes)
+## Common Setup (All Real Robot Modes)
 
 ```bash
 # ─── On Raspberry Pi ───────────────────────────────────────
