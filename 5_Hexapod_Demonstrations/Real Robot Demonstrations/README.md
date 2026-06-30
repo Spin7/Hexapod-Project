@@ -48,7 +48,7 @@
 
 <p align="center">
   <a href="https://youtu.be/VLH7wAWyUxs">
-    <img src="https://img.youtube.com/vi/VLH7wAWyUxs/maxresdefault.jpg" alt="▶ Watch: DDS Communication Launch" width="640">
+    <img src="https://img.youtube.com/vi/VLH7wAWyUxs/hqdefault.jpg" alt="▶ Watch: DDS Communication Launch" width="640">
   </a>
 </p>
 <p align="center"><em>▶ Click to watch on YouTube</em></p>
@@ -83,7 +83,7 @@ ros2 launch hexapod_pkg dds_comunication.launch.py
 
 <p align="center">
   <a href="https://youtu.be/U2Dk3tRs2tY">
-    <img src="https://img.youtube.com/vi/U2Dk3tRs2tY/maxresdefault.jpg" alt="▶ Watch: Teleoperation" width="640">
+    <img src="https://img.youtube.com/vi/U2Dk3tRs2tY/hqdefault.jpg" alt="▶ Watch: Teleoperation" width="640">
   </a>
 </p>
 <p align="center"><em>▶ Click to watch on YouTube</em></p>
@@ -116,7 +116,7 @@ ros2 run hexapod_pkg teleop_hexapod
 
 <p align="center">
   <a href="https://youtu.be/IZbR-sUqEJs">
-    <img src="https://img.youtube.com/vi/IZbR-sUqEJs/maxresdefault.jpg" alt="▶ Watch: Auto-Balance Controller" width="640">
+    <img src="https://img.youtube.com/vi/IZbR-sUqEJs/hqdefault.jpg" alt="▶ Watch: Auto-Balance Controller" width="640">
   </a>
 </p>
 <p align="center"><em>▶ Click to watch on YouTube</em></p>
@@ -142,7 +142,7 @@ In this video you can see the real hexapod actively stabilizing its body while m
 
 <p align="center">
   <a href="https://youtu.be/g3vVCbwPKyo">
-    <img src="https://img.youtube.com/vi/g3vVCbwPKyo/maxresdefault.jpg" alt="▶ Watch: Sensor Computation Layer" width="640">
+    <img src="https://img.youtube.com/vi/g3vVCbwPKyo/hqdefault.jpg" alt="▶ Watch: Sensor Computation Layer" width="640">
   </a>
 </p>
 <p align="center"><em>▶ Click to watch on YouTube</em></p>
@@ -175,7 +175,7 @@ ros2 launch hexapod_pkg sensors_compute_real.launch.py
 
 <p align="center">
   <a href="https://youtu.be/iJXCLiiwyK0">
-    <img src="https://img.youtube.com/vi/iJXCLiiwyK0/maxresdefault.jpg" alt="▶ Watch: Vision-Based Follower Launch" width="640">
+    <img src="https://img.youtube.com/vi/iJXCLiiwyK0/hqdefault.jpg" alt="▶ Watch: Vision-Based Follower Launch" width="640">
   </a>
 </p>
 <p align="center"><em>▶ Click to watch on YouTube</em></p>
@@ -203,7 +203,7 @@ ros2 launch hexapod_pkg follower_real.launch.py
 
 <p align="center">
   <a href="https://youtu.be/b_1az8GlGhw">
-    <img src="https://img.youtube.com/vi/b_1az8GlGhw/maxresdefault.jpg" alt="▶ Watch: Swarm Follower Launch" width="640">
+    <img src="https://img.youtube.com/vi/b_1az8GlGhw/hqdefault.jpg" alt="▶ Watch: Swarm Follower Launch" width="640">
   </a>
 </p>
 <p align="center"><em>▶ Click to watch on YouTube</em></p>
@@ -231,7 +231,7 @@ ros2 launch hexapod_pkg swarm_follower_real.launch.py
 
 <p align="center">
   <a href="https://youtu.be/4EwRCGkaTQo">
-    <img src="https://img.youtube.com/vi/4EwRCGkaTQo/maxresdefault.jpg" alt="▶ Watch: GPS Navigation Launch" width="640">
+    <img src="https://img.youtube.com/vi/4EwRCGkaTQo/hqdefault.jpg" alt="▶ Watch: GPS Navigation Launch" width="640">
   </a>
 </p>
 <p align="center"><em>▶ Click to watch on YouTube</em></p>
@@ -264,7 +264,7 @@ ros2 launch hexapod_pkg navigation_to_target_real.launch.py
 
 <p align="center">
   <a href="https://youtu.be/CMZotYHFU5w">
-    <img src="https://img.youtube.com/vi/CMZotYHFU5w/maxresdefault.jpg" alt="▶ Watch: Follower Full Demo" width="640">
+    <img src="https://img.youtube.com/vi/CMZotYHFU5w/hqdefault.jpg" alt="▶ Watch: Follower Full Demo" width="640">
   </a>
 </p>
 <p align="center"><em>▶ Click to watch on YouTube</em></p>
@@ -291,7 +291,7 @@ A complete end-to-end test of the **perception → navigation pipeline** on real
 
 <p align="center">
   <a href="https://youtu.be/iqLUGNQwuDo">
-    <img src="https://img.youtube.com/vi/iqLUGNQwuDo/maxresdefault.jpg" alt="▶ Watch: GPS Navigation Full Demo" width="640">
+    <img src="https://img.youtube.com/vi/iqLUGNQwuDo/hqdefault.jpg" alt="▶ Watch: GPS Navigation Full Demo" width="640">
   </a>
 </p>
 <p align="center"><em>▶ Click to watch on YouTube</em></p>
