@@ -1,0 +1,97 @@
+# ============================================================
+# Root .gitignore — Hexapod Project
+# ============================================================
+
+# ──────────────────────────────────────────────
+# Large binary / media files
+# ──────────────────────────────────────────────
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.webm
+
+# Large images (keep PNGs/JPGs that are documentation assets, see exceptions below)
+6_Multimedia/*.jpg
+6_Multimedia/*.jpeg
+6_Multimedia/*.mp4
+
+# ──────────────────────────────────────────────
+# Large 3D design files
+# ──────────────────────────────────────────────
+*.SLDASM
+*.SLDPRT
+*.SLDDRW
+*.stl
+*.STL
+*.step
+*.STEP
+*.iges
+*.IGES
+
+# ──────────────────────────────────────────────
+# Android APK
+# ──────────────────────────────────────────────
+*.apk
+*.aab
+
+# ──────────────────────────────────────────────
+# ROS2 build artifacts
+# ──────────────────────────────────────────────
+build/
+install/
+log/
+.catkin_workspace
+devel/
+*.pyc
+__pycache__/
+*.egg-info/
+.eggs/
+
+# ──────────────────────────────────────────────
+# Python virtual environments
+# ──────────────────────────────────────────────
+.venv/
+venv/
+env/
+.venvs/
+*.pth
+
+# ──────────────────────────────────────────────
+# YOLO / ML model weights
+# ──────────────────────────────────────────────
+*.pt
+*.pth
+*.onnx
+*.engine
+*.trt
+*.weights
+runs/
+
+# ──────────────────────────────────────────────
+# OS and editor files
+# ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# ──────────────────────────────────────────────
+# Exceptions — keep these tracked
+# ──────────────────────────────────────────────
+# Keep documentation images
+!5_Hexapod_Demonstrations/Hexapod_real_and_sim.png
+!5_Hexapod_Demonstrations/Simulation\ Robot\ Demonstrations/*.png
+!5_Hexapod_Demonstrations/Real\ Robot\ Demonstrations/Hexapod*.jpg
+!1_ROS2_Gazebo_Project/Hexapod.jpg
+
+# Keep PDF guides
+!2_Arduino_Code/Arduino_Instructions.pdf
+!3_3D_Design/Hexapod\ 3D\ model/stl\ files/Robot/Parts-List.pdf
