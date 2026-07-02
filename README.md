@@ -207,15 +207,6 @@ Video recordings of all operation modes on both the real robot and the simulatio
 
 Raw photos and media assets of the physical robot from construction and testing sessions.
 
-<p align="center">
-  <img src="6_Multimedia/Hexapod.jpg" alt="Hexapod Robot" width="420">
-  <img src="6_Multimedia/20251223_180120.jpg" alt="Hexapod Robot — testing" width="420">
-</p>
-<p align="center">
-  <img src="6_Multimedia/gps_nav.png" alt="GPS Navigation screenshot" width="420">
-  <img src="6_Multimedia/5107459007307254717.jpg" alt="Hexapod — field test" width="420">
-</p>
-
 ---
 
 ## Quick Start
